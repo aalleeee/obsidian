@@ -63,7 +63,7 @@ def quote_of_the_day():
 def weather_of_the_day():
     city_1 = 'trento'
     city_2 = 'valdagno'
-    api_key = "2ae59ad21ca41ecf4a977e2574c1137b"
+    api_key = "your_api" #change here
     base_url = "http://api.openweathermap.org/data/2.5/weather?"
 
     complete_url = base_url + "appid=" + api_key + "&q=" + city_1
