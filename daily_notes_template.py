@@ -13,6 +13,8 @@ def main():
     text = "# " + today.strftime("%d/%m/%Y") + "\n"
     # weather
     text += weather_of_the_day()
+    # banner 1 (img)
+    text += "![](https://picsum.photos/900/250)" + "\n"
     # todo
     text += "## To do " + emoji.emojize('🎯') + "\n"
     # university
@@ -28,7 +30,9 @@ def main():
     text += "---\n## Notes " + emoji.emojize('📒')+"\n"
     text += "...\n\n---\n\n"
     # quote of the day
-    text += quote_of_the_day()
+    text += quote_of_the_day() + "\n"
+    # banner 2 (img)
+    text += "![](https://picsum.photos/900/400)" + "\n"
     # tags
     text += "\n---\nTags:\n"
 
